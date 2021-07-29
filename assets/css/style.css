@@ -1,0 +1,143 @@
+
+.img {
+    width: 100%;
+}
+
+.header {
+    max-width: 1920px;
+    background-color: #F8F8F8;
+    padding-bottom: 8px;
+}
+
+
+.header-logo {
+    padding-left: 244px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    color: #2C4985;
+    z-index: 3;
+}
+
+.contact-hotline-list-item, .contact-email-list-item {
+    padding-right: 106px;
+}
+
+.contact-hotline-list-item, .contact-email-list-item, .contact-time-list-item p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #1A3761;
+}
+
+.contact-hotline-list-item::before{
+    position: absolute;
+    content:"";
+    background-image: url("../img/contact-phone.svg");
+    background-repeat: no-repeat;
+    top:50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height:30px;
+    right: calc((100% + 5px))
+}
+
+.contact-email-list-item::before{
+    position: absolute;
+    content:"";
+    background-image: url("../img/contact-mail.svg");
+    background-repeat: no-repeat;
+    top:50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height:30px;
+    right: calc((100% + 5px))
+}
+
+.contact-time-list-item::before{
+    position: absolute;
+    content:"";
+    background-image: url("../img/contact-clock.svg");
+    background-repeat: no-repeat;
+    top:50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height:30px;
+    right: calc((100% + 5px))
+}
+
+.menu {
+    z-index: 3;
+}
+
+.menu li {
+    padding: 27px 36px;
+    border-bottom: 2px solid transparent;
+}
+
+.menu li:hover{
+    border-bottom: 2px solid #E0E0E0;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #F8F8F8;
+}
+
+.banner-img {
+    margin-top: -130px;
+    z-index: 2;
+}
+
+.banner-img::before {
+    content: '';
+    position: absolute;
+    left: 40%;
+    top: 0;
+    width: 50px;
+    height: 50px;
+    background-color: #F8F8F8 transparent;
+    border-bottom: 50px solid transparent;
+    border-left: 50px solid #F8F8F8;
+}
+
+.banner-img::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 40%;
+    height: 50px;
+    background-color: #F8F8F8;
+}
+
+.banner-content {
+    margin: -450px 0 0 370px;
+    max-width: 791px;
+}
+
+.banner-content .banner-title {
+    font-size: 46px;
+    color: #FFFFFF;
+}
+
+.banner-content .banner-description {
+    max-width: 671px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #F8F8F8;
+}
+
+.banner-next a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    background-color: #EE1F23;
+    padding: 14px 48px;
+}
+
+.banner-next img {
+    padding: 14px;
+    background-color: #F8F8F8;
+}
+
