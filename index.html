@@ -14,70 +14,134 @@
   <link rel="stylesheet" href="./assets/css/responsive.css">
 </head>
 <body>
-    <header class="header">
-       <div class="container d-flex justify-content-lg-between pt-3">
-          <div class="header-logo position-relative text-center">
-            <img src="./assets/img/logo-1 1.svg" alt="Error img logo">
-            <p>Materials Importer & Constructon</p>
-         </div>
-         <nav>
-            <ul class="contact d-flex">
-                <li class="contact-hotline-list-item position-relative">
-                  <p>HOTLINE</p>
-                  <span style="color: #EE1F23;  font-weight: bold;">028 6652 3966</span>
-                </li>
-                <li class="contact-email-list-item position-relative">
-                  <p>EMAIL</p>
-                  <span style="color: #EE1F23;  font-weight: bold;">info@ozonejsc.vn</span>
-                </li>
-                <li class="contact-time-list-item position-relative">
-                  <p>GIỜ LÀM VIỆC</p>
-                  <span style="color: #EE1F23;  font-weight: bold;">Mon. - Fri. 08AM - 18PM</span>
-                </li>
-            </ul>
-         </nav>
-       </div>
+    <header class="header container-fluid">
+      <div class="container d-lg-flex justify-content-lg-around">
+        <div class="header-logo text-center positon-relative">
+          <img src="./assets/img/logo-1 1.svg" alt="Error logo">
+          <p>Materials Importer & Constructon</p>
+        </div>
+        <div class="header-contact">
+          <div class="contact hotline d-lg-flex"> 
+            <img src="./assets/img/contact-phone.svg" alt="Error phone">
+            <div class="contact-text">
+              <p>HOTLINE</p>
+              <p style="color:#EE1F23; font-weight: bold;">028 6652 3966</p>
+            </div>
+          </div>
+          <div class="contact mail d-lg-flex">
+            <img src="./assets/img/contact-mail.svg" alt="Error mail">
+            <div class="contact-text">
+              <p>EMAIL</p>
+              <p style="color:#EE1F23; font-weight: bold;">info@ozonejsc.vn</p>
+            </div>
+          </div>
+          <div class="contact time d-lg-flex">
+            <img src="./assets/img/contact-clock.svg" alt="Error time">
+            <div class="contact-text">
+              <p>GIỜ LÀM VIỆC</p>
+              <p style="color:#EE1F23; font-weight: bold;">Mon. - Fri. 08AM - 18PM</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
 
     <main class="main">
-      <section class="menu border-bottom position-relative">
-        <nav>
-          <ul class="d-flex justify-content-center">
-            <li>
-              <a href="#">TRANG CHỦ</a>
-            </li>
-            <li>
-              <a href="#">DỊCH VỤ</a>
-            </li>
-            <li>
-              <a href="#">ALBUM ẢNH</a>
-            </li>
-            <li>
-              <a href="#">CHỨNG NHẬN</a>
-            </li>
-            <li>
-              <a href="#">LIÊN HỆ</a>
-            </li>
+      <section class="menu">
+        <nav class="menu-nav">
+          <ul class="d-flex justify-content-center position-relative">
+            <li><a href="#about">TRANG CHỦ</a></li>
+            <li><a href="#service">DỊCH VỤ</a></li>
+            <li><a href="#company">ALBUM ẢNH</a></li>
+            <li><a href="#client">CHỨNG NHẬN</a></li>
+            <li><a href="#contact">LIÊN HỆ</a></li>
           </ul>
         </nav>
       </section>
-
       <section class="banner">
-        <div class="container-fluid position-relative px-0">
-            <div class="banner-img">
-              <img src="./assets/img/banner.jpg" alt="Error banner img">
-              <div class="banner-content">
-                <h1 class="banner-title pb-3">
-                  THAY ĐỔI THÓI QUEN SỬ DỤNG VẬT LIỆU TỰ NHIÊN TRONG XÂY DỰNG DÂN DỤNG
-                </h1>
-                <p class="banner-description pb-5">
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text evver since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                </p>
-                <div class="banner-next d-flex text-center">
-                    <a href="#">xem thêm</a>
-                    <img src="./assets/img/arrow-right 1.png" alt="error arrow">
+        <div class="banner-container-fluid">
+          <div class="banner-img">
+            <div class="banner-ozone-info container">
+              <div class="banner-info d-flex justify-content-between">
+                <div class="banner-content">
+                  <h1 class="text-title">
+                    THAY ĐỔI THÓI QUEN SỬ DỤNG VẬT LIỆU TỰ NHIÊN TRONG XÂY DỰNG DÂN DỤNG
+                  </h1>
+                  <p class="text-content">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text evver since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                  </p>
+                  <div class="button-next d-flex text-center">
+                    <a href="#">Xem thêm</a>
+                    <img src="./assets/img/arrow-right 1.png" alt="Error next">
+                  </div>
                 </div>
+                <div class="banner-icon text-center">
+                  <a href="#">
+                    <img src="./assets/img/Twitter.png" alt="">
+                  </a>
+                  <a href="#">
+                    <img src="./assets/img/facebook.png" alt="">
+                  </a>
+                  <a href="#">
+                    <img src="./assets/img/insta.png" alt="">
+                  </a>
+                </div>
+              </div>
+              <div class="rectange position-absolute">
+                <img src="./assets/img/Polygon 1.png" alt="">
+              </div>
+              <div class="arrow-down-icon position-absolute">
+                <img src="./assets/img/Vector.png" alt="">
+              </div>
             </div>
+          </div>
+        </div>
+      </section>
+      <section id="about">
+        <div class="about-container">
+          <div class="row">
+            <div class="col-12 col-lg-6">
+              <div class="about-img position-relative">
+                <div class="about-img-company">
+                  <img src="./assets/img/Rectangle 319.jpg" alt="">
+                </div>
+                <div class="about-icon-double position-absolute">
+                  <img src="./assets/img/Frame.png" alt="">
+                </div>
+                <div class="about-img-blue position-absolute">
+                  <p>VẬT LIỆU TỰ NHIÊN TRONG XÂY DỰNG DÂN DỤNG</p>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-12 col-lg-6">
+              <div class="about-content">
+                <p class="text-head">OZONE COMPANY</p>
+                <h1 class="text-title">Về chúng tôi</h1>
+                <p class="text-information">Thị trường xây dựng tại Việt Nam đang có những bước
+                  chuyển mình vô cùng mạnh mẽ trong xây dựng cơ bản, đi
+                  kèm với nó là thị trường. Vật Liệu xây dựng phát triển đa
+                  dạng với nhiều phân khúc và chất lượng khác nhau. Với
+                  mục tiêu giúp khách hàng tiếp cận được các sản phẩm
+                  vật liệu đạt tiêu chuẩn Kỹ thuật – Mỹ thuật, giá thành
+                  hợp lý cùng các dịch vụ chuyên nghiệp, Công Ty Ozone đã
+                  được thành lập để là cầu nối giữa nhà sản xuất và khách
+                  hàng. Các loại vật liệu hiện nay cần đạt các tiêu chí cao về kiến
+                  trúc nhưng không được thay đổi vật liệu gốc.
+                  Vật liệu đưa vào sử dụng cần có độ bền cao về chất liệu
+                  và mầu sắc.
+                </p>
+                <p class="text-information-next"> Đi cùng sự phát triển của xã hội các vật liệu xây dựng
+                  mới dần được đưa vào sử dụng, chúng cần thỏa mãn các
+                  tiêu chí về...
+                </p>
+                <div class="button-next d-flex text-center">
+                  <a href="#">Xem thêm</a>
+                  <img src="./assets/img/arrow-right 1.png" alt="Error next">
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </main>

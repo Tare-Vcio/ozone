@@ -1,0 +1,12 @@
+@media (min-width: 1400px) {
+    .rectange {
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -146px;
+    }
+    .arrow-down-icon {
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -146px;
+    }
+}
