@@ -187,11 +187,11 @@
 .rectange {
     left: 50%;
     transform: translateX(-50%);
-    bottom: -238px;
+    bottom: 0;
 }
 
 .arrow-down-icon {
     left: 50%;
     transform: translateX(-50%);
-    bottom: -238px;
+    bottom: 0;
 }
