@@ -1,6 +1,7 @@
 
 .header {
     padding-bottom:36px;
+    max-width: 1920px;
 }
 
 .img {
@@ -43,13 +44,17 @@
     padding-right: 15px;
 }
 
-.contact-text p {
+.hotline, .mail .contact-text p {
     padding-right: 75px;
+}
+
+.contact-text p {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 14px;
     color: #1A3761;
 }
+
 
 
 .menu-nav li a {
@@ -133,7 +138,7 @@
 
 .about-container {
     max-width: 1170px;
-    margin: 0 172px;
+    margin: 0 auto;
 }
 
 .about-icon-double {
@@ -195,3 +200,136 @@
     transform: translateX(-50%);
     bottom: 0;
 }
+
+.service-list {
+    padding: 120px 0;
+    max-width: 972px;
+    margin: 0 auto;
+}
+
+.icon-column {
+    background-color: #F8F8F8;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #303030;
+    padding: 51px 54px;
+}
+
+.icon-column:nth-child(1) {
+    border-bottom: 1px solid #265BC5;
+}
+
+.icon-column:nth-child(2) {
+    background: #265BC5;
+    color: #F8F8F8;
+}
+
+.icon-column:hover {
+    background-color: #265BC5;
+    cursor: pointer;
+    color: #fff;
+}
+
+#company .container {
+    max-width: 1170px;
+    padding: 110px 0;
+}
+
+.company-title {
+    padding-bottom: 38px;
+}
+
+.card-text {
+    padding: 0 25px 40px 25px;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.icon-card h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    color: #333333;
+    padding-bottom: 14px;
+}
+
+.icon-card p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #555555;
+}
+
+.card-calendar img {
+    padding-right: 9px;
+}
+
+.card-calendar p {
+    padding-right: 102px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #303030;
+}
+
+.arrow-next a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #303030;
+    text-decoration: none;
+}
+
+.arrow-next a {
+    padding-right: 9px;
+}
+
+.card-calendar {
+    padding: 25px;
+}
+
+.client-container {
+    max-width: 967px;
+}
+
+.client-title {
+    padding: 155px 0 38px 0;
+}
+
+.client-title p {
+    font-size: 14px;    
+    text-align: center;
+    text-transform: uppercase;
+    color: #EE1F23;
+    padding-bottom: 14px;
+}
+
+.client-title h1 {
+    font-size: 42px;
+    text-align: center;
+    color: #303030;
+} 
+
+.client-image img {
+    width: 302px;
+}
+
+.client-img-blue {
+    right: 22px;
+    bottom: -41px;
+    padding: 40px;
+    background-color: #265BC5;
+    width: 312px;
+    height: 117px;
+}
+
+.client-img-blue h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    color: #F8F8F8;
+}
+
+.client-img-blue p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    text-align: center;     
+    color: #F8F8F8;
+} 
