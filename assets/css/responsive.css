@@ -1,0 +1,153 @@
+
+@media (min-width: 1400px) {
+
+}
+
+@media (min-width: 1181px) {
+    .container {
+       max-width: 1170px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1180px) {
+    .header-logo::before {
+        width: 49%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .header {
+        margin-bottom: -25px;
+        padding-bottom: 20px;
+    }
+
+    .header-contact {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner-img {
+        margin-top: -80px;
+    }
+
+    .banner-ozone-info {
+        padding-top: 129px;
+        margin: 0px 375px 0 0px;
+    }
+
+    .banner-icon {
+        padding-top: 260px;
+        display: block;
+    }
+
+    .banner-container-fluid {
+        min-height: 625px;
+    }
+
+    #about {
+        padding: 40px 20px;
+    }
+
+    .about-img-company img {
+        width: 100%;
+    }
+
+    .about-content {
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    .about-content .text-head {
+        padding-top: 30px;
+        padding-bottom: 0;
+    }
+
+    .about-content .text-title {
+        padding-bottom: 8px;
+    }
+
+    .about-content .text-information, .text-information-next {
+        max-width: 768px;
+        text-align: justify;
+    }
+
+    .service-list {
+        padding: 70px 0;
+    }
+
+    .icon-column {
+        padding: 10px 10px;
+    }
+
+    #company .container {
+        max-width: 1170px;
+        padding: 50px 0;
+    }
+
+    .company-title {
+        padding-bottom: 10px;
+    }
+
+    .icon-card h2 {
+        font-size: 21px;
+    }
+
+    .client-title {
+        padding: 8px 0 38px 0;
+    }
+
+    .client-title p {
+        padding-bottom: 0;
+    }
+
+    .client-info {
+        padding-top: 0px;
+    }
+    .client-info img {
+        left: -70px;
+        top: -2px;
+    }
+    .client-info p {
+        font-size: 14px;
+    }
+
+    .client-info {
+        max-width: 100%;
+        margin-left: 20px;
+        position: relative;
+        padding-top: 25px;
+    }
+
+    .client-customer {
+        padding: 70px 0 20px 0;
+    }
+
+    .contactbody-box-container h3 {
+        padding: 40px 0;
+    }
+
+    .contactbody-box-container p {
+        font-size: 13px;
+        padding-top: 8px;
+    }
+
+    .contactbody-item:not(:first-child) {
+        padding: 0 0 20px 0;
+    }
+
+    .footer-regis {
+        padding-top: 102px;
+        padding-right: 0;
+    }
+
+    .footer-nav {
+        padding: 101px 20px 0 85px;
+    }
+
+    .footer-bot {
+        padding-bottom: 30px;
+    }
+}
+

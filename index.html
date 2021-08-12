@@ -16,27 +16,27 @@
 </head>
 <body>
     <header class="header container-fluid">
-      <div class="container d-lg-flex justify-content-lg-around">
+      <div class="container d-lg-flex justify-content-md-between">
         <div class="header-logo text-center positon-relative">
           <img src="./assets/img/logo-1 1.svg" alt="Error logo">
           <p>Materials Importer & Constructon</p>
         </div>
-        <div class="header-contact">
-          <div class="contact hotline d-lg-flex"> 
+        <div class="header-contact position-relative">
+          <div class="contact hotline d-md-flex"> 
             <img src="./assets/img/contact-phone.svg" alt="Error phone">
             <div class="contact-text">
               <p>HOTLINE</p>
               <p style="color:#EE1F23; font-weight: bold;">028 6652 3966</p>
             </div>
           </div>
-          <div class="contact mail d-lg-flex">
+          <div class="contact mail d-md-flex">
             <img src="./assets/img/contact-mail.svg" alt="Error mail">
             <div class="contact-text">
               <p>EMAIL</p>
               <p style="color:#EE1F23; font-weight: bold;">info@ozonejsc.vn</p>
             </div>
           </div>
-          <div class="contact time d-lg-flex">
+          <div class="contact time d-md-flex">
             <img src="./assets/img/contact-clock.svg" alt="Error time">
             <div class="contact-text">
               <p>GIỜ LÀM VIỆC</p>
@@ -71,10 +71,9 @@
                   <p class="text-content">
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text evver since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                   </p>
-                  <div class="button-next d-flex text-center">
-                    <a href="#">Xem thêm</a>
-                    <img src="./assets/img/arrow-right 1.png" alt="Error next">
-                  </div>
+                    <div class="button-next">
+                      <a class="button-next-link" href="#">Xem thêm</a>
+                    </div>
                 </div>
                 <div class="banner-icon text-center">
                   <a href="#">
@@ -138,9 +137,8 @@
                   mới dần được đưa vào sử dụng, chúng cần thỏa mãn các
                   tiêu chí về...
                 </p>
-                <div class="button-next d-flex text-center">
-                  <a href="#">Xem thêm</a>
-                  <img src="./assets/img/arrow-right 1.png" alt="Error next">
+                <div class="button-next">
+                  <a class="button-next-link" href="#">Xem thêm</a>
                 </div>
               </div>
             </div>
@@ -148,7 +146,9 @@
         </div>
       </section>
       <section id="service">
-        <div class="container-fluid" style="background-image: url(./assets/img/bannerservice.jpg);">
+        <div class="container-fluid" style="background-image: url(./assets/img/bannerservice.jpg); background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;">
           <div class="container">
             <div class="service-list ">
               <div class="row">
@@ -162,7 +162,7 @@
                     </div>
                   </div>
                   <div class="des-icon1">
-                    <p style="color: #265BC5; font-size: 18px;">1. TƯ VẤN KHÁCH HÀNG</p>
+                    <p>1. TƯ VẤN KHÁCH HÀNG</p>
                     <ul>
                       <li>• Nhận thông tin từ khách hàng.</li>
                       <li>• Tư vấn vật liệu, tư vấn nguồn cung cấp</li>
@@ -196,7 +196,7 @@
                     </div>
                   </div>
                   <div class="des-icon3">
-                    <p style="color: #265BC5; font-size: 18px;">3. TRÌNH MẪU - GIẢI TRÌNH</p>
+                    <p>3. TRÌNH MẪU - GIẢI TRÌNH</p>
                     <ul>
                       <li>• Trình mẫu vật liệu theo yêu cầu của khách hàng.</li>
                       <li>• Giải trình các thông số kỹ thuật, biện pháp lắp đặt.</li>
@@ -213,7 +213,7 @@
                     </div>
                   </div>
                   <div class="des-icon4">
-                    <p style="color: #265BC5; font-size: 18px;">4. GIAO HÀNG - THANH TOÁN</p>
+                    <p>4. GIAO HÀNG - THANH TOÁN</p>
                     <ul>
                       <li>•Thống nhất hợp đồng cung ứng vật tư.</li>
                       <li>•Thống nhất phương thức thanh toán và các điều khoản.</li>
@@ -234,55 +234,60 @@
               <h1 style="font-size: 42px; font-weight: bold;">TIN TỨC</h1>
             </div>
             <div class="row">
-              <div class="col-12 col-md-4 icon-card">
+              <div class="col-12 col-md-6 col-lg-4 icon-card">
+               <a href="#" style="text-decoration: none;">
                 <img src="./assets/img/company1.jpg" alt="">
                 <div class="card-text">
                   <h2>Can your business become better with new technology?</h2>
                   <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </p>
                 </div>
-                <div class="card-calendar d-flex">
-                  <img src="./assets/img/calendar 1.png" alt="">
-                  <p>20/08/2020</p>
-                  <div class="arrow-next">
-                    <a href="#">Xem thêm</a>
-                    <img src="./assets/img/arrow-right.png" alt="Error next">
+                <div class="card-calendar d-flex justify-content-between">
+                  <div class="card-calendar-first">
+                    <p>20/08/2020</p>
+                  </div>
+                  <div class="card-calender-viewmore">
+                    <p>Xem thêm</p>
                   </div>
                 </div>
+               </a>
               </div>
-              <div class="col-12 col-md-4 icon-card">
-                <img src="./assets/img/company2.jpg" alt="">
-                <div class="card-text">
-                  <h2>Can your business become better with new technology?</h2>
-                  <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </p>
-                </div> 
-                <div class="card-calendar d-flex">
-                  <img src="./assets/img/calendar 1.png" alt="">
-                  <p>20/08/2020</p>
-                  <div class="arrow-next">
-                    <a href="#">Xem thêm</a>
-                    <img src="./assets/img/arrow-right.png" alt="Error next">
+              <div class="col-12 col-md-6 col-lg-4 icon-card">
+                <a href="#" style="text-decoration: none;">
+                  <img src="./assets/img/company1.jpg" alt="">
+                  <div class="card-text">
+                    <h2>Can your business become better with new technology?</h2>
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </p>
                   </div>
-                </div>
+                  <div class="card-calendar d-flex justify-content-between">
+                    <div class="card-calendar-first">
+                      <p>20/08/2020</p>
+                    </div>
+                    <div class="card-calender-viewmore">
+                      <p>Xem thêm</p>
+                    </div>
+                  </div>
+                 </a>
               </div>
-              <div class="col-12 col-md-4 icon-card">
-                <img src="./assets/img/company3.jpg" alt="">
-                <div class="card-text">
-                  <h2>Can your business become better with new technology?</h2>
-                  <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </p>
-                </div>
-                <div class="card-calendar d-flex">
-                  <img src="./assets/img/calendar 1.png" alt="">
-                  <p>20/08/2020</p>
-                  <div class="arrow-next">
-                    <a href="#">Xem thêm</a>
-                    <img src="./assets/img/arrow-right.png" alt="Error next">
+              <div class="col-12 col-md-6 col-lg-4 icon-card">
+                <a href="#" style="text-decoration: none;">
+                  <img src="./assets/img/company1.jpg" alt="">
+                  <div class="card-text">
+                    <h2>Can your business become better with new technology?</h2>
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </p>
                   </div>
-                </div>
+                  <div class="card-calendar d-flex justify-content-between">
+                    <div class="card-calendar-first">
+                      <p>20/08/2020</p>
+                    </div>
+                    <div class="card-calender-viewmore">
+                      <p>Xem thêm</p>
+                    </div>
+                  </div>
+                 </a>
               </div>
             </div>
-            <div class="button-next d-flex justify-content-center">
-              <a href="#">Xem thêm</a>
-              <img src="./assets/img/arrow-right 1.png" alt="Error next">
+            <div class="button-next" style="text-align:center">
+              <a class="button-next-link" href="#">Xem thêm</a>
             </div>
           </div>
         </div>
@@ -328,7 +333,7 @@
               <div class="contactbody-item col-12 col-lg-2 text-center text-lg-start ">
                 <h3>LIÊN HỆ</h3>
               </div>
-              <div class="contactbody-item col-12 col-lg-2 text-center text-lg-start ">
+              <div class="contactbody-item col-12 col-sm-6 col-md-3 text-lg-start ">
                 <a href="#">
                   <div class="text-center">
                     <img src="./assets/img/address.svg" alt="">
@@ -336,7 +341,7 @@
                   <p>No. 22, N7 street, Quarter 3, Cat Lai Ward, District 2, Ho Chi Minh City</p>
                 </a>
               </div>
-              <div class="contactbody-item col-12 col-lg-2 text-center text-lg-start ">
+              <div class="contactbody-item col-12 col-sm-6 col-md-3 col-lg-2 text-center text-lg-start ">
                 <a href="#">
                   <div class="text-center">
                     <img src="./assets/img/telephone.svg" alt="">
@@ -344,7 +349,7 @@
                   <p>028 6652 3966</p>
                 </a>
               </div>
-              <div class="contactbody-item col-12 col-lg-2 text-center text-lg-start ">
+              <div class="contactbody-item col-12 col-sm-6 col-md-3 col-lg-2 text-center text-lg-start ">
                 <a href="#">
                   <div class="text-center">
                     <img src="./assets/img/ic_email.svg" alt="">
@@ -352,7 +357,7 @@
                   <p>info@ozonejsc.vnskyqueen.vn</p>
                 </a>
               </div>
-              <div class="contactbody-item col-12 col-lg-2 text-center text-lg-start ">
+              <div class="contactbody-item col-12 col-sm-6 col-md-3 col-lg-2 text-center text-lg-start ">
                 <a href="#">
                   <div class="text-center">
                     <img src="./assets/img/earth.svg" alt="">

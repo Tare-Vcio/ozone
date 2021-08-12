@@ -8,16 +8,19 @@
     width: 100%;
 }
 
+.header .container {
+    max-width: 1170px;
+}
+
 .header::before {
     position: absolute;
     content: '';
-    width: 38%;
-    height: 64px;
+    width: calc((100% - 1170px)/2);
+    height: 38px;
     background: #fff;
-    left: -48px;
-    top: 82px;
-    transform: skewX(-55deg);
-    z-index: 1;
+    left: -64px;
+    top: 81px;
+    z-index: 2;
 }
 
 .header-logo {
@@ -25,6 +28,17 @@
     z-index: 1;
 }
 
+.header-logo::before {
+    content: '';
+    width: 45%;
+    height: 120px;
+    background: #fff;
+    left: -155px;
+    top: 0;
+    position: absolute;
+    transform: skewX(-55deg);
+    z-index: -1;
+}
 
 .header-logo p {
     font-family: 'Open Sans', sans-serif;
@@ -38,6 +52,7 @@
     justify-content: space-between;
     align-items: center;
     padding-bottom: 20px;
+    z-index: 1;
 }
 
 .header-contact img {
@@ -60,7 +75,12 @@
 .menu-nav li a {
     text-decoration: none;
     font-size: 14px;
-    color: #f8f8f8;;
+    color: #f8f8f8;
+    transition: 0.5s;
+}
+
+.menu-nav li a:hover {
+    color: #555555;
 }
 
 .menu-nav ul {
@@ -72,12 +92,11 @@
     padding-right: 70px;
     padding: 20px;
     text-align: center;
-    transition: 0.5s;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #f8f8f8;
 }
 
 .menu-nav li:hover {
-    border-bottom: white;
+    border-bottom: #555555;
 }
 
 .banner-container-fluid {
@@ -117,7 +136,7 @@
     max-width: 671px;
 }
 
-.button-next a {
+.button-next-link {
     text-decoration: none;
     background-color: #EE1F23;
     color: #fff;
@@ -125,20 +144,33 @@
     font-size: 16px;
     transition: 0.5s;
 }
+
 .button-next a:hover {
     background-color: #505050;
 }
 
-.button-next img {
-    padding: 15px;
+.button-next::after {
+    position: absolute;
+    content: "";
+    background-image: url(../img/arrow-right\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     background-color: #F8F8F8;
+    transform: translateY(-18%);
+    width: 43px;
+    height: 46px;
 }
 
 .banner-icon {
     padding-top: 225px;
     display: grid;
     font-size: 24px;
+    transition: 0.5s;
+}
 
+.banner-icon img:hover {
+    opacity: 0.4;
 }
 
 #about {
@@ -229,6 +261,12 @@
     transition: 0.5s;
 }
 
+.icon-column p {
+    color: #265BC5;
+    font-size: 18px;
+
+}
+
 .icon-column:nth-child(1) {
     border-bottom: 1px solid #265BC5;
 }
@@ -244,6 +282,11 @@
     color: #fff;
 }
 
+.icon-column:hover p {
+    color: #f8f8f8;
+    font-size: 18px;
+}
+
 #company .container {
     max-width: 1170px;
     padding: 110px 0;
@@ -251,6 +294,38 @@
 
 .company-title {
     padding-bottom: 38px;
+}
+
+.card-calendar-first {
+    margin-left: 24px;
+    position: relative;
+}
+
+.card-calendar-first::before {
+    position: absolute;
+    content: "";
+    background-image: url(../img/icon-calender.png);
+    top: 50%;
+    transform: translateY(-50%);
+    width: 24px;
+    height: 24px;
+    right: calc((100% + 5px));
+}
+
+.card-calender-viewmore {
+    margin-right: 24px;
+    position: relative;
+}
+
+.card-calender-viewmore::after {
+    position: absolute;
+    content: "";
+    background-image: url(../img/arrow-right.png);
+    top: 50%;
+    transform: translateY(-50%);
+    width: 24px;
+    height: 24px;
+    left: calc((100% + 5px));
 }
 
 .card-text {
@@ -266,18 +341,15 @@
     padding: 24px 0 14px 0;
 }
 
+
 .icon-card p {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     color: #555555;
 }
 
-.card-calendar img {
-    padding-right: 9px;
-}
 
 .card-calendar p {
-    padding-right: 102px;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     color: #303030;
@@ -477,6 +549,12 @@
     padding-right: 30px;
 }
 
+.footer-nav a:hover {
+    color:#333333;
+    background-color: #D7D7D7;
+    opacity: 0.3;
+}
+
 .footer-nav li img {
     padding-right: 10px;
     width: 5px;
@@ -548,4 +626,8 @@
     padding: 20px 0;
     border-top: 2px solid #D7D7D7;
     font-size: 24px;
+}
+
+.footer-icon img:hover {
+    opacity: 0.8;
 }
