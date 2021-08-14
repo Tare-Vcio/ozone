@@ -1,84 +1,32 @@
-
+/* 
 @media (min-width: 1400px) {
 
 }
-
-@media (min-width: 1181px) {
-    .container {
-       max-width: 1170px;
-    }
+@media (min-width: 1200px) {
+  .container {
+     max-width: 1170px;
+  }
 }
 
-@media (min-width: 992px) and (max-width: 1180px) {
-    .header-logo::before {
-        width: 49%;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-
-    .header {
-        margin-bottom: -25px;
-        padding-bottom: 20px;
-    }
-
-    .header-contact {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .banner-img {
-        margin-top: -80px;
-    }
-
+@media (min-width: 992px) and (max-width: 1199px) {
     .banner-ozone-info {
-        padding-top: 129px;
-        margin: 0px 375px 0 0px;
-    }
-
-    .banner-icon {
-        padding-top: 260px;
-        display: block;
-    }
-
-    .banner-container-fluid {
-        min-height: 625px;
+        padding-top: 190px;
     }
 
     #about {
-        padding: 40px 20px;
-    }
-
-    .about-img-company img {
-        width: 100%;
-    }
-
-    .about-content {
-        padding: 10px 0;
-        text-align: center;
+        padding: 55px 0;
     }
 
     .about-content .text-head {
-        padding-top: 30px;
-        padding-bottom: 0;
+        padding-bottom: 7px;
     }
 
     .about-content .text-title {
-        padding-bottom: 8px;
+        padding-bottom: 15px;
     }
 
-    .about-content .text-information, .text-information-next {
-        max-width: 768px;
-        text-align: justify;
-    }
-
-    .service-list {
-        padding: 70px 0;
-    }
-
-    .icon-column {
-        padding: 10px 10px;
+    .about-content .button-next {
+        padding-top: 25px;
     }
 
     #company .container {
@@ -90,64 +38,164 @@
         padding-bottom: 10px;
     }
 
-    .icon-card h2 {
-        font-size: 21px;
+    .card-text {
+        padding: 0 25px 25px 25px;
     }
 
-    .client-title {
-        padding: 8px 0 38px 0;
+    .card-calendar {
+        padding: 15px;
     }
 
-    .client-title p {
-        padding-bottom: 0;
-    }
-
-    .client-info {
-        padding-top: 0px;
-    }
-    .client-info img {
-        left: -70px;
-        top: -2px;
-    }
-    .client-info p {
-        font-size: 14px;
-    }
-
-    .client-info {
-        max-width: 100%;
-        margin-left: 20px;
-        position: relative;
-        padding-top: 25px;
-    }
-
-    .client-customer {
-        padding: 70px 0 20px 0;
-    }
-
-    .contactbody-box-container h3 {
-        padding: 40px 0;
-    }
-
-    .contactbody-box-container p {
-        font-size: 13px;
-        padding-top: 8px;
-    }
-
-    .contactbody-item:not(:first-child) {
-        padding: 0 0 20px 0;
-    }
-
-    .footer-regis {
-        padding-top: 102px;
-        padding-right: 0;
+    .company-box {
+        padding-bottom: 15px;
     }
 
     .footer-nav {
-        padding: 101px 20px 0 85px;
-    }
-
-    .footer-bot {
-        padding-bottom: 30px;
+        padding: 112px 20px 0 91px;
     }
 }
 
+@media (min-width: 800px) and (max-width: 991px) {
+    .header {
+        padding-top: 0;
+    }
+    .header::after {
+        top: 250px;
+    }
+    .banner-img {
+        margin-top: -80px;
+    }
+    .banner-ozone-info {
+        padding-top: 120px;
+    }
+    .banner-container-fluid {
+        min-height: 740px;
+    }
+
+    #about {
+        padding: 0;
+    }
+
+    .about-img-company {
+        text-align: center;
+    }
+
+    .about-content {
+        padding: 21px 95px;
+    }
+
+    #company .container {
+        padding: 30px 0;
+    }
+
+    .company-title {
+        padding-bottom: 15px;
+    }
+
+    .company-box {
+        padding-bottom: 30px;
+    }
+    .client-title {
+        padding: 0px 0 25px 0;
+    }
+
+    .client-info p {
+        font-size: 13px;
+    }
+
+    .slick-dots {
+        padding-left: 331px;
+    }
+
+    .client-customer {
+        padding: 0px 0 21px 0;
+    }
+    #client .container {
+        padding-bottom: 0;
+    }
+
+    .contactbody-box-container h3 {
+        padding: 30px 0px 0;
+    }
+
+    .footer-nav {
+        padding: 110px 20px 0 77px;
+    }
+
+    .footer-bot {
+        padding-bottom: 43px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 799px) {
+    .header {
+        padding-top: 0;
+    }
+    .header::after {
+        top: 255px;
+    }
+    .banner-ozone-info {
+        padding-top: 152px;
+    }
+    .menu-nav li a {
+        font-size: 12px;
+    }
+    .banner-img {
+        margin-top: -82px;
+    }
+
+    .banner-container-fluid {
+        min-height: 761px;
+    }
+    #about {
+        padding: 50px 0;
+    }
+
+    .about-img-company {
+        text-align: center;
+    }
+    .about-content {
+        padding: 0 82px;
+    }
+    #company .container {
+        padding: 60px 0;
+    }
+    .company-title {
+        padding-bottom: 16px;
+    }
+    .client-title {
+        padding: 87px 0 38px 0;
+    }
+    .client-info p {
+        font-size: 14px;
+        padding-bottom: 30px;
+        line-height: 20px;
+    }
+    .slick-dots {
+        padding-left: 332px;
+    }
+    .contactbody-box-container h3 {
+        padding: 30px 0px 0;
+    }
+    .footer-nav {
+        padding: 110px 20px 0 77px;
+    }
+}
+
+/* @media (min-width: 575px) and (max-width: 767px) {
+    .header {
+        padding-top: 0;
+    }
+    .header::after {
+        top: 282px;
+    }
+    .menu-nav li a {
+        font-size: 12px;
+    }
+    .banner-ozone-info {
+        padding-top: 152px;
+    }
+    .banner-container-fluid {
+        min-height: 761px;
+    }
+} */ 
