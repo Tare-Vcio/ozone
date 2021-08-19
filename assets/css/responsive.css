@@ -488,7 +488,7 @@
         text-align: justify;
     }
     .banner-content .text-title {
-        font-size: 26px;
+        font-size: 32px;
         line-height: 35px;
         text-align: justify;
     }
@@ -513,6 +513,13 @@
     #company .container {
         max-width: 720px;
         padding: 35px 0;
+    }
+    .banner-icon {
+        padding-top: 170px
+    }
+    .banner-content .text-content {
+        font-size: 16px;
+        padding-bottom: 85px;
     }
     .header-contact {
         padding-bottom: 0;
