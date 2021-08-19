@@ -532,6 +532,10 @@
     .client-customer {
         flex-wrap: wrap;
     }
+    .about-content .text-head {
+        padding-top: 45px;
+        padding-bottom: 0px;
+    }
     .group-item {
         width: calc((100%-44px)/2)
     }
