@@ -1,4 +1,4 @@
-/* 
+
 @media (min-width: 1400px) {
 
 }
@@ -22,11 +22,11 @@
     }
 
     .about-content .text-title {
-        padding-bottom: 15px;
+        padding-bottom: 8px;
     }
 
     .about-content .button-next {
-        padding-top: 25px;
+        padding-top: 5px;
     }
 
     #company .container {
@@ -34,6 +34,10 @@
         padding: 50px 0;
     }
 
+    .about-content .text-information, .text-information-next {
+        font-size: 15px;
+        line-height: 21px;
+    }
     .company-title {
         padding-bottom: 10px;
     }
@@ -55,12 +59,19 @@
     }
 }
 
-@media (min-width: 800px) and (max-width: 991px) {
+@media (min-width: 885px) and (max-width: 991px) {
     .header {
         padding-top: 0;
     }
     .header::after {
         top: 250px;
+        position: unset;
+    }
+    .header-contact {
+        padding-top: 30px;
+    }
+    .hotline, .mail .contact-text p {
+        padding-right: 30px;
     }
     .banner-img {
         margin-top: -80px;
@@ -78,10 +89,54 @@
 
     .about-img-company {
         text-align: center;
+        padding: 40px 0;
+    }
+
+    .about-img-blue {
+        background: #265BC5;
+        color: #f8f8f8;
+        max-width: 327px;
+        padding: 43px 18px 33px 68px;
+        bottom: 0px;
+        right: 212px;
+    }
+    img {
+        max-width: 80%;
+        vertical-align: bottom;
+
+    }.about-icon-double {
+        right: 478px;
+        bottom: 50px;
+        z-index: 2;
     }
 
     .about-content {
-        padding: 21px 95px;
+        padding: 21px 193px;
+    }
+
+    .about-content .text-head {
+        text-align: center;
+    }
+
+    .about-content .text-title {
+        text-align: center;
+    }
+
+    .about-content .text-information, .text-information-next {
+        text-align: justify;
+        max-width: 603px;
+    }
+
+    .text-information {
+        padding-bottom: 20px;
+    }
+
+    .about-content .button-next {
+        padding: 35px 188px 15px 188px;
+    }
+
+    .client-img-customer {
+        width: 380px;
     }
 
     #company .container {
@@ -127,7 +182,7 @@
     }
 }
 
-@media (min-width: 768px) and (max-width: 799px) {
+@media (min-width: 817px) and (max-width: 884px) {
     .header {
         padding-top: 0;
     }
@@ -182,20 +237,359 @@
     }
 }
 
-/* @media (min-width: 575px) and (max-width: 767px) {
+@media (min-width: 817px) and (max-width: 884px) {
     .header {
         padding-top: 0;
     }
     .header::after {
-        top: 282px;
+        top: 177px;
+    }
+    .header-contact {
+        padding-top: 30px;
+    }
+    .hotline, .mail .contact-text p {
+        padding-right: 10px;
+    }
+    
+    .banner-ozone-info {
+        padding-top: 152px;
     }
     .menu-nav li a {
         font-size: 12px;
     }
-    .banner-ozone-info {
-        padding-top: 152px;
+    .banner-img {
+        margin-top: -82px;
     }
+
     .banner-container-fluid {
         min-height: 761px;
     }
-} */ 
+    #about {
+        padding: 50px 0;
+    }
+
+    .about-img-company {
+        text-align: center;
+    }
+    .about-content {
+        padding: 0 82px;
+    }
+    #company .container {
+        padding: 60px 0;
+    }
+    .company-title {
+        padding-bottom: 16px;
+    }
+    .client-title {
+        padding: 87px 0 38px 0;
+    }
+    .client-info p {
+        font-size: 14px;
+        padding-bottom: 30px;
+        line-height: 20px;
+    }
+    .slick-dots {
+        padding-left: 332px;
+    }
+    .contactbody-box-container h3 {
+        padding: 30px 0px 0;
+    }
+    .footer-nav {
+        padding: 110px 20px 0 77px;
+    }
+}
+@media (min-width: 768px) and (max-width: 816px) {
+    .header {
+        padding-top: 0;
+    }
+    .header::after {
+        top: 150px;
+    }
+    .hotline, .mail .contact-text p {
+        padding-right: 10px;
+    }
+    .header-logo p {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+        font-size: 13px;
+        color: #2C4985;
+        display: none;
+    }
+    .header-contact {
+        padding-top: 15px;
+    }
+    .banner-ozone-info {
+        padding-top: 152px;
+    }
+    .menu-nav li a {
+        font-size: 12px;
+    }
+    .banner-img {
+        margin-top: -82px;
+    }
+
+    .banner-container-fluid {
+        min-height: 761px;
+    }
+    #about {
+        padding: 50px 0;
+    }
+
+    .about-img-company {
+        text-align: center;
+    }
+    .about-content {
+        padding: 0 82px;
+    }
+    #company .container {
+        padding: 60px 0;
+    }
+    .company-title {
+        padding-bottom: 16px;
+    }
+    .client-title {
+        padding: 87px 0 38px 0;
+    }
+    .client-info p {
+        font-size: 14px;
+        padding-bottom: 30px;
+        line-height: 20px;
+    }
+    .slick-dots {
+        padding-left: 332px;
+    }
+    .contactbody-box-container h3 {
+        padding: 30px 0px 0;
+    }
+    .footer-nav {
+        padding: 110px 20px 0 77px;
+    }
+}
+
+@media (max-width: 992px) {
+    .header::after {
+        display: none;
+    }
+    .header-logo::before {
+       display: none;
+    }
+    .banner-img {
+        margin-top: -68px;
+    }
+    .header .container {
+        align-items: center;
+    }
+    .banner-ozone-info {
+        padding-top: 115px;
+    }
+    .banner-ozone-info {
+        padding-top: 115px;
+        max-width: 720px;
+    }
+    .banner-content .text-title {
+        font-size: 36px;
+        line-height: 50px;
+    }
+    .banner-icon {
+        padding-top: 220px;
+    }
+    #about {
+        padding: 30px 0;
+    }
+    .banner-container-fluid {
+        min-height: 555px;
+    }
+    .about-img-company img{
+        text-align: center;
+        width: 720px;
+    }
+    .about-content {
+        text-align: center;
+    }
+    .about-content .text-head {
+        padding-top: 35px;
+        padding-bottom: 8px;
+    }
+    .about-content .text-title {
+        padding-bottom: 8px;
+    }
+    .about-content .text-information, .text-information-next {
+        text-align: justify;
+        max-width: 720px;
+    }
+    .about-content {
+        padding: 0;
+    }
+    .text-information {
+        padding-bottom: 10px;
+    }
+    .about-content .button-next {
+        padding-top: 25px;
+    }
+    #company .container {
+        max-width: 720px;
+        padding: 50px 0;
+    }
+    .company-title {
+        padding-bottom: 16px;
+    }
+    .icon-card h2 {
+        font-size: 20px;
+    }
+    .card-text {
+        padding: 0 25px 15px 25px;
+        border-bottom: 1px solid #E0E0E0;
+    }
+    .company-box {
+        padding-bottom: 8px;
+    }
+    .client-title {
+        padding: 40px 0 25px 0;
+    }    
+    .contactbody-box-container h3 {
+        padding: 60px 0 0px;
+    }
+    .client-info {
+        max-width: 100%;
+        margin-left: 70px;
+        position: relative;
+        padding-top: 25px;
+    }
+    .map-img a iframe {
+        width: 100%;
+    }
+    .client-img-customer img {
+        width: 85%;
+    }
+    .client-info p {
+        font-size: 14px;
+        line-height: 19px;
+    }
+    #client .container {
+        max-width: 720px;
+    }
+    .about-img-blue {
+        right: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .header {
+        padding-top: 0;
+    }
+    .header::after {
+        top: 150px;
+    }
+    .banner-ozone-info {
+        padding-top: 50px;
+    }
+    .banner-content .text-content {
+        font-size: 15px;
+        text-align: justify;
+    }
+    .banner-content .text-title {
+        font-size: 26px;
+        line-height: 35px;
+        text-align: justify;
+    }
+    .contact-text {
+        display: none;
+    }
+    .time {
+        visibility: hidden;
+    }
+    .header-logo p {
+        display: none;
+    }
+    .banner-img {
+        margin-top: 5px;
+    }
+    .hotline, .mail .contact-text p {
+        padding-right: 20px;
+    }
+    .about-content .button-next {
+        padding-top: 8px;
+    }
+    #company .container {
+        max-width: 720px;
+        padding: 35px 0;
+    }
+    .header-contact {
+        padding-bottom: 0;
+    }
+    .company-box {
+        padding-bottom: 0px;
+    }
+    .client-img-customer img {
+        width: 100%;
+    }
+    .client-info {
+        padding-top: 50px;
+    }
+    .client-info img {
+        top: 40px;
+    }
+    .client-customer {
+        flex-wrap: wrap;
+    }
+    .group-item {
+        width: calc((100%-44px)/2)
+    }
+    .footer-about {
+        padding-top: 16px;
+    }
+    .footer-about img {
+        padding-bottom: 14px;
+    }
+    .footer-about h3 {
+        padding-bottom: 8px;
+    }
+    .footer-about p {
+        text-align: justify;
+    }
+    .footer-nav {
+        padding: 24px 0px 0 13px;
+    }
+    .footer-nav h3 {
+        padding-bottom: 4px;
+    }
+    .footer-regis {
+        padding-top: 8px;
+        padding-right: 14px;
+    }
+    .footer-icon {
+        padding: 8px 0;
+    }
+    .footer-nav-menu {
+        margin-bottom: 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .sub-menu {
+        display: block;
+        position: absolute;
+        right: 3%;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 24px;
+        color: #265BC5;
+        z-index: 999;
+    }
+    .menu-nav {
+        position: absolute;
+        z-index: 99;
+        left: 0;
+        right: 0;
+        transform: translateX(-100%);
+        transition: 0.5s;
+    }
+    .menu-nav ul {
+        background-color: #2C4985;
+        flex-direction: column;
+        height: 100vh;
+    }
+    .menu-nav.isactive { 
+        transform: translateX(0);
+    }
+}
+

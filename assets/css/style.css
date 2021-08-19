@@ -525,16 +525,15 @@
 } 
 
 .client-img {
-    width: 302px;
+    width: 100%;
 }
 
 .client-img-customer {
-    width: 302px;
+    width: 100%;
 }
 
 .client-img-customer img {
-    width: 302px;
-    height: 302px;
+    width: 100%;
 }
 
 .client-img-blue {
@@ -542,6 +541,10 @@
     bottom: -38px;
     padding: 23px;
     background-color: #265BC5;
+}
+
+.map-img a iframe {
+    width: 100%;
 }
 
 .client-img-blue h2 {
@@ -821,4 +824,8 @@
 
 .client-box {
     overflow: hidden;
+}
+
+.sub-menu {
+    display: none;
 }
