@@ -6,6 +6,12 @@
   .container {
      max-width: 1170px;
   }
+  .client-img-blue {
+    left: 125px;
+    bottom: -38px;
+    padding: 23px;
+    background-color: #265BC5;
+}
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -20,15 +26,24 @@
     .about-content .text-head {
         padding-bottom: 7px;
     }
-
     .about-content .text-title {
         padding-bottom: 8px;
     }
-
+    .client-title {
+        padding: 100px 0 38px 0;
+    }
+    .contactbody-box-container h3 {
+        font-size: 35px;
+    }
     .about-content .button-next {
         padding-top: 5px;
     }
-
+    .contactbody-item:not(:first-child) {
+        padding: 55px 0;
+    }
+    .contactbody-box-container p {
+        font-size: 13px;
+    }
     #company .container {
         max-width: 1170px;
         padding: 50px 0;
@@ -59,7 +74,7 @@
     }
 }
 
-@media (min-width: 885px) and (max-width: 991px) {
+@media (min-width: 885px) and (max-width: 992px) {
     .header {
         padding-top: 0;
     }
@@ -74,7 +89,7 @@
         padding-right: 30px;
     }
     .banner-img {
-        margin-top: -80px;
+        margin-top: -55px;
     }
     .banner-ozone-info {
         padding-top: 120px;
@@ -82,7 +97,9 @@
     .banner-container-fluid {
         min-height: 740px;
     }
-
+    .header-logo p {
+        display: none;
+    }
     #about {
         padding: 0;
     }
@@ -250,7 +267,9 @@
     .hotline, .mail .contact-text p {
         padding-right: 10px;
     }
-    
+    .header-logo p {
+        display: none;
+    }
     .banner-ozone-info {
         padding-top: 152px;
     }
@@ -373,11 +392,18 @@
     .header-logo::before {
        display: none;
     }
+    img {
+        max-width: 100%;
+    }
     .banner-img {
-        margin-top: -68px;
+        margin-top: -45px;
     }
     .header .container {
         align-items: center;
+    }
+    .client-info img {
+        width: 40px;
+        left: -40px;
     }
     .banner-ozone-info {
         padding-top: 115px;
@@ -393,8 +419,18 @@
     .banner-icon {
         padding-top: 220px;
     }
+    .icon img {
+        max-width: 80%;
+    }
+    .icon-column {
+        padding: 51px 10px;
+    }
+    .footer-regis {
+        padding-top: 110px;
+        padding-right: 20px;
+    }
     #about {
-        padding: 30px 0;
+        padding: 60px 0;
     }
     .banner-container-fluid {
         min-height: 555px;
@@ -417,6 +453,9 @@
         text-align: justify;
         max-width: 720px;
     }
+    .card-calendar:not(:last-child()) {
+        padding: 25px 25px 50px 25px;
+    }
     .about-content {
         padding: 0;
     }
@@ -427,7 +466,7 @@
         padding-top: 25px;
     }
     #company .container {
-        max-width: 720px;
+        max-width: 922px;
         padding: 50px 0;
     }
     .company-title {
@@ -451,7 +490,7 @@
     }
     .client-info {
         max-width: 100%;
-        margin-left: 70px;
+        margin-left: 80px;
         position: relative;
         padding-top: 25px;
     }
@@ -459,7 +498,7 @@
         width: 100%;
     }
     .client-img-customer img {
-        width: 85%;
+        width: 100%;
     }
     .client-info p {
         font-size: 14px;
@@ -467,6 +506,10 @@
     }
     #client .container {
         max-width: 720px;
+        padding-bottom: 30px;
+    }
+    .client-img-blue {
+        left: 115px;
     }
     .about-img-blue {
         right: 20px;
@@ -476,21 +519,51 @@
 @media (max-width: 767px) {
     .header {
         padding-top: 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 100;
+        background-color: #f8f8f8;
+        padding-bottom: 8px;
+    }
+    body {
+        margin-top: 85px;
     }
     .header::after {
         top: 150px;
+    }
+    .banner-container-fluid {
+        min-height: 450px;
+    }
+    .header-logo img {
+        max-width: 80%;
     }
     .banner-ozone-info {
         padding-top: 50px;
     }
     .banner-content .text-content {
-        font-size: 15px;
+        font-size: 14px;
+        padding-bottom: 80px;
         text-align: justify;
     }
+    #about {
+        padding: 60px 0;
+    }
+    .client-info p {
+        font-size: 16px;
+        max-width: 650px;
+    }
+    .icon img {
+        max-width: 80%;
+    }
     .banner-content .text-title {
-        font-size: 32px;
+        font-size: 30px;
         line-height: 35px;
         text-align: justify;
+    }
+    .menu-nav ul li::before {
+        background-color: unset;
     }
     .contact-text {
         display: none;
@@ -508,19 +581,21 @@
         padding-right: 20px;
     }
     .about-content .button-next {
-        padding-top: 8px;
+        padding-top: 16px;
     }
     #company .container {
         max-width: 720px;
-        padding: 35px 0;
+        padding: 60px 0;
+    }.company-title p {
+        padding-bottom: 8px;
+    }
+    .company-title {
+        padding-bottom: 8px;
     }
     .banner-icon {
-        padding-top: 170px
+        padding-top: 170px;
     }
-    .banner-content .text-content {
-        font-size: 16px;
-        padding-bottom: 85px;
-    }
+
     .header-contact {
         padding-bottom: 0;
     }
@@ -532,6 +607,7 @@
     }
     .client-info {
         padding-top: 50px;
+        margin-left: 42px;
     }
     .client-info img {
         top: 40px;
@@ -548,9 +624,10 @@
     }
     .footer-about {
         padding-top: 16px;
+        text-align: center;
     }
     .footer-about img {
-        padding-bottom: 14px;
+        padding-bottom: 8px;
     }
     .footer-about h3 {
         padding-bottom: 8px;
@@ -560,6 +637,7 @@
     }
     .footer-nav {
         padding: 24px 0px 0 13px;
+        text-align: center;
     }
     .footer-nav h3 {
         padding-bottom: 4px;
@@ -567,14 +645,22 @@
     .footer-regis {
         padding-top: 8px;
         padding-right: 14px;
+        text-align: center;
     }
     .footer-icon {
         padding: 8px 0;
+    }
+    .footer-regis h3 {
+        padding-bottom: 8px;
+    }
+    .footer-bot {
+        padding-bottom: 45px;
     }
     .footer-nav-menu {
         margin-bottom: 10px;
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
     }
     .sub-menu {
         display: block;
@@ -592,15 +678,156 @@
         left: 0;
         right: 0;
         transform: translateX(-100%);
-        transition: 0.5s;
+        transition: 0.8s;
     }
     .menu-nav ul {
         background-color: #2C4985;
         flex-direction: column;
         height: 100vh;
+        justify-content: unset;
+    }
+    .menu-nav li {
+        margin-top: 20px;
+        text-align: center;
+        position: unset;
+        border-bottom: 1px solid aliceblue;
+        padding-bottom: 25px;
     }
     .menu-nav.isactive { 
         transform: translateX(0);
     }
+    
 }
 
+@media (max-width: 576px) {
+    .header-logo {
+        padding-top: 8px;;
+    }
+    .banner-content .text-title {
+        font-size: 23px;
+        line-height: 32px;
+        text-align: left;
+    }
+    .banner-content .text-content {
+        font-size: 14px;
+        padding-bottom: 40px;
+    }
+    .banner-icon {
+        padding-top: 150px;
+    }
+    .banner-container-fluid {
+        min-height: 500px;
+    }
+    .about-img-blue {
+        max-width: 170px;
+        padding: 12px 13px 10px 30px;
+        bottom: -16px;
+        right: 15px;
+        text-align: left;
+    }
+    .about-img-blue p {
+        font-size: 3vw;
+        line-height: 20px;
+    }
+    .about-icon-double img {
+        width: 35%;
+    }
+    .about-icon-double {
+        right: 101px;
+        bottom: 20px;
+    }
+    .about-content .text-title {
+        font-size: 34px;
+    }
+    .about-content .text-information, .text-information-next {
+        font-size: 14px;
+    }
+    .icon-column {
+        padding: 25px 10px;
+    }
+    .icon-img img {
+        max-width: 80%;
+    }
+    .icon img {
+        max-width: 60%;
+    }
+    .icon-column p {
+        font-size: 14px;
+    }
+    .company-title h1 {
+        font-size: 34px;
+    }
+    .icon-card h2 {
+        font-size: 22px;
+        line-height: 24px;
+        padding: 14px 0 14px 0;
+    }
+    .client-title h1 {
+        font-size: 36px;
+    }
+    .client-title {
+        padding: 50px 0 10px 0;
+    }
+    .client-img-blue {
+        left: 100px;
+    }
+    .client-info p {
+        font-size: 14px;
+    }
+    .contactbody-box-container h3 {
+        font-size: 36px;
+    }
+    .contactbody-item:not(:first-child) {
+        padding: 20px 0;
+    }
+}
+
+@media (max-width: 525px) {
+    .banner-content .text-content {
+        padding-bottom: 75px;
+    }
+    .banner-icon {
+        padding-top: 210px;
+    }
+}
+
+@media (max-width: 479px) {
+    .banner-content .text-content {
+        padding-bottom: 65px;
+    }
+    .banner-icon {
+        padding-top: 220px;
+    }
+}
+
+@media (max-width: 396px) {
+    .banner-container-fluid {
+        min-height: 545px;
+    }
+    .banner-icon {
+        padding-top: 275px;
+    }
+}
+
+@media (max-width: 381px) {
+    
+    .banner-container-fluid {
+        min-height: 565px;
+    }
+    .banner-content .text-title {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .banner-content .text-content {
+        padding-bottom: 120px;
+    }
+    .banner-icon {
+        padding-top: 325px;
+    }
+}
+
+@media (max-width: 336px) {
+    .banner-icon {
+        padding-top: 345px;
+    }
+}

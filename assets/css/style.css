@@ -22,7 +22,7 @@
     height: 100%;
     background: #fff;
     left: 0;
-    bottom: 67px;
+    bottom: 47px;
     z-index: 2;
 }
 
@@ -85,7 +85,7 @@
     content: '';
     position: absolute;
     left: 0;
-    top: 205px;
+    top: 200px;
     background-color: rgba(244,244,244, 0.3);
     width: 100%;
     height: 0.2px;
@@ -101,7 +101,7 @@
     transition: 0.5s;
     line-height: 16px;
     font-weight: 700;
-
+    padding: 35px;
 }
 
 .menu-nav li a:hover {
@@ -110,11 +110,12 @@
 
 .menu-nav ul {
     z-index: 4;
+    display: flex;
+    justify-content: center;
 }
 
 .menu-nav li {
-    padding-right: 70px;
-    padding: 20px 39px;
+    margin-top: 20px;
     text-align: center;
     position: relative;
     border-bottom: 1px solid transparent;
@@ -128,7 +129,7 @@
     content: '';
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: -20px;
     height: 2px;
     width: 100%;
     background-color: #C1F8FF;
@@ -145,7 +146,7 @@
 }
 
 .banner-img {
-    margin-top: -110px;
+    margin-top: -100px;
 }
 
 .banner-ozone-info {
@@ -205,8 +206,8 @@
     background-repeat: no-repeat;
     background-position: center;
     background-color: #F8F8F8;
-    width: 48px;
-    height: 48px;
+    width: 47px;
+    height: 47.8px;
     top: 0;
     right: 0;
 
@@ -285,6 +286,10 @@
     ;
 }
 
+.text-information {
+    padding-bottom: 15px;
+}
+
 .about-content .text-information, .text-information-next {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -296,7 +301,7 @@
 }
 
 .about-content .button-next {
-    padding-top: 49px;
+    padding-top: 25px;
 }
 
 .rectange {
@@ -361,14 +366,6 @@
 .icon-column:hover p {
     color: #f8f8f8;
     font-size: 18px;
-}
-
-.des-icon1 ul {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 19px;
-    color: #303030;
 }
 
 #company .container {
@@ -777,12 +774,20 @@
     background-color: #EE1F23;
     color: #fff;
     font-size: 20px;
-    padding: 14px 18px;
+    padding: 14px 30px;
     transition: 0.9s;
 }
 
 .input-group a:hover {
     background-color: #265BC5;;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.input-group a img {
+    padding-bottom: 10px;
 }
 
 .footer-icon {
@@ -828,4 +833,27 @@
 
 .sub-menu {
     display: none;
+}
+
+#btnScrolltoTop.active {
+    transform: translateX(0);
+    opacity: 1;
+    visibility: visible;
+}
+
+#btnScrolltoTop {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #265BC5;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    z-index: 999;
+    transition: 0.4s;
+    box-shadow: 0 0 10px rgb(0 0 0 / 25%);
 }
