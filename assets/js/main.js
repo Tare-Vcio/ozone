@@ -8,7 +8,7 @@ $( document ).ready(function() {
     autoplay: true,
     dots: true,
     arrows: false,
-    autoplaySpeed: 3500,
+    autoplaySpeed: 2500,
     speed: 1500,
     });
 
