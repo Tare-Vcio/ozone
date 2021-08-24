@@ -533,6 +533,9 @@
     .header::after {
         top: 150px;
     }
+    .service-list {
+        padding: 80px 0;
+    }
     .banner-container-fluid {
         min-height: 450px;
     }
