@@ -7,13 +7,53 @@
      max-width: 1170px;
   }
   .client-img-blue {
-    left: 125px;
-    bottom: -38px;
-    padding: 23px;
-    background-color: #265BC5;
+        left: 125px;
+        bottom: -38px;
+        padding: 23px;
+        background-color: #265BC5;
+    }   
 }
+@media (min-width: 1024px) {
+    .banner-icon a:hover {
+        color: rgba(1, 102, 235, 0.486);
+    }
+    .menu-nav li a:hover {
+        color: #ed1c24;
+    }
+    .menu-nav ul li:hover::before {
+        transform: scale(1);
+    }
+    .button-next-link:hover {
+        background-color: #265BC5;
+        color: #fff;
+        cursor: pointer;
+    }
+    .rectange img:hover {
+        opacity: 0.8;
+    }
+    .icon-column:hover {
+        background-color: #265BC5;
+        cursor: pointer;
+        color: #fff;
+    }
+    
+    .icon-column:hover p {
+        color: #f8f8f8;
+        font-size: 18px;
+    }
+    .company-box a:hover {
+        box-shadow: 5px 5px 30px rgba(1, 102, 235, 0.486);
+    }
+    .footer-nav a:hover {
+        color: #2555B4;
+    }
+    .input-group a:hover {
+        background-color: #265BC5;;
+    }
+    .footer-icon img:hover {
+        opacity: 0.8;
+    }
 }
-
 @media (min-width: 992px) and (max-width: 1199px) {
     .banner-ozone-info {
         padding-top: 190px;
@@ -782,6 +822,27 @@
     }
     .contactbody-item:not(:first-child) {
         padding: 20px 0;
+    }
+    .contactbody-item a{
+        display: flex;
+        align-items: center;
+    } 
+    .contactbody-item a img {
+        max-width: 60%;
+    }
+    .contactbody-box-container p {
+        padding-top: 0;
+        text-align: justify;
+    }
+    .contactbody-box-container h3 {
+        font-size: 25px;
+        padding: 20px 0 0;
+    }
+    .contactbody-item:not(:first-child) {
+        padding: 5px 0;
+    }
+    .contactbody-item:last-child{
+        padding-bottom: 20px;
     }
 }
 
