@@ -854,6 +854,7 @@
     outline: none;
     cursor: pointer;
     z-index: 999;
+    transform: translateX(120px);
     transition: 0.4s;
     box-shadow: 0 0 10px rgb(0 0 0 / 25%);
 }
