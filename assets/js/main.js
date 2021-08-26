@@ -39,7 +39,7 @@ var wow = new WOW(
 
 window.addEventListener('scroll', function(){
   let pageTop = document.querySelector('#btnScrolltoTop');
-  let windowPosition = window.scrollY > 80;
+  let windowPosition = window.scrollY > 120;
   pageTop.classList.toggle('active', windowPosition);
 })
 

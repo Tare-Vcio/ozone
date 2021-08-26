@@ -18,9 +18,10 @@
         color: rgba(1, 102, 235, 0.486);
     }
     .menu-nav li a:hover {
-        color: #ed1c24;
+        opacity: 0.8;
     }
     .menu-nav ul li:hover::before {
+        transition: 0.3s;
         transform: scale(1);
     }
     .button-next-link:hover {
@@ -470,7 +471,7 @@
         padding-right: 20px;
     }
     #about {
-        padding: 60px 0;
+        padding: 35px 0;
     }
     .banner-container-fluid {
         min-height: 555px;
@@ -483,8 +484,8 @@
         text-align: center;
     }
     .about-content .text-head {
-        padding-top: 35px;
-        padding-bottom: 8px;
+        padding-top: 40px;
+        padding-bottom: 0px;
     }
     .about-content .text-title {
         padding-bottom: 8px;
@@ -503,11 +504,20 @@
         padding-bottom: 10px;
     }
     .about-content .button-next {
-        padding-top: 25px;
+        padding-top: 15px;
+    }
+    .service-list {
+        padding: 60px 0;
     }
     #company .container {
         max-width: 922px;
-        padding: 50px 0;
+        padding: 35px 0;
+    }
+    .company-title p {
+        padding-bottom: 8px;
+    }
+    .client-customer {
+        padding: 0px 0 40px 0;
     }
     .company-title {
         padding-bottom: 16px;
@@ -516,17 +526,17 @@
         font-size: 20px;
     }
     .card-text {
-        padding: 0 25px 15px 25px;
+        padding: 0 0 15px 0;
         border-bottom: 1px solid #E0E0E0;
     }
     .company-box {
-        padding-bottom: 8px;
+        padding-bottom: 0px;
     }
     .client-title {
         padding: 40px 0 25px 0;
     }    
     .contactbody-box-container h3 {
-        padding: 60px 0 0px;
+        padding: 40px 0 0px;
     }
     .client-info {
         max-width: 100%;
@@ -558,7 +568,7 @@
 
 @media (max-width: 767px) {
     .header {
-        padding-top: 0;
+        padding-top: 8px;
         position: fixed;
         top: 0;
         left: 0;
@@ -567,20 +577,29 @@
         background-color: #f8f8f8;
         padding-bottom: 8px;
     }
+    .header-logo {
+        padding-top: 0;
+    }
+    .header-contact img {
+        padding-right: 15px;
+    }
+    .header-contact .mail img {
+        height: 23px;
+    }
     body {
-        margin-top: 85px;
+        margin-top: 68px;
     }
     .header::after {
         top: 150px;
     }
     .service-list {
-        padding: 80px 0;
+        padding: 50px 0;
     }
     .banner-container-fluid {
         min-height: 450px;
     }
     .header-logo img {
-        max-width: 80%;
+        max-width: 80px;
     }
     .banner-ozone-info {
         padding-top: 50px;
@@ -591,7 +610,7 @@
         text-align: justify;
     }
     #about {
-        padding: 60px 0;
+        padding: 35px 0;
     }
     .client-info p {
         font-size: 16px;
@@ -608,6 +627,9 @@
     .menu-nav ul li::before {
         background-color: unset;
     }
+    .client-customer {
+        padding: 0px 0 40px 0;
+    }
     .contact-text {
         display: none;
     }
@@ -621,14 +643,14 @@
         margin-top: 5px;
     }
     .hotline, .mail .contact-text p {
-        padding-right: 20px;
+        padding-right: 0;
     }
     .about-content .button-next {
         padding-top: 16px;
     }
     #company .container {
         max-width: 720px;
-        padding: 60px 0;
+        padding: 40px 0;
     }.company-title p {
         padding-bottom: 8px;
     }
@@ -636,7 +658,7 @@
         padding-bottom: 8px;
     }
     .banner-icon {
-        padding-top: 170px;
+        padding-top: 200px;
     }
 
     .header-contact {
@@ -720,6 +742,7 @@
         z-index: 99;
         left: 0;
         right: 0;
+        top: 68px;
         transform: translateX(-100%);
         transition: 0.8s;
     }
@@ -744,7 +767,7 @@
 
 @media (max-width: 576px) {
     .header-logo {
-        padding-top: 8px;;
+        padding-top: 0;;
     }
     .banner-content .text-title {
         font-size: 23px;
@@ -756,10 +779,10 @@
         padding-bottom: 40px;
     }
     .banner-icon {
-        padding-top: 150px;
+        padding-top: 175px;
     }
     .banner-container-fluid {
-        min-height: 500px;
+        min-height: 440px;
     }
     .about-img-blue {
         max-width: 170px;
@@ -779,6 +802,9 @@
         right: 101px;
         bottom: 20px;
     }
+    .text-center {
+        padding-right: 5px;
+    }
     .about-content .text-title {
         font-size: 34px;
     }
@@ -790,6 +816,9 @@
     }
     .icon-img img {
         max-width: 80%;
+    }
+    .client-customer {
+        padding: 0px 0 40px 0;
     }
     .icon img {
         max-width: 60%;
@@ -828,7 +857,7 @@
         align-items: center;
     } 
     .contactbody-item a img {
-        max-width: 60%;
+        max-width: 28px;
     }
     .contactbody-box-container p {
         padding-top: 0;
@@ -860,7 +889,7 @@
         padding-bottom: 65px;
     }
     .banner-icon {
-        padding-top: 220px;
+        padding-top: 255px;
     }
 }
 
@@ -869,7 +898,7 @@
         min-height: 545px;
     }
     .banner-icon {
-        padding-top: 275px;
+        padding-top: 310px;
     }
 }
 
@@ -883,15 +912,18 @@
         line-height: 30px;
     }
     .banner-content .text-content {
-        padding-bottom: 120px;
+        padding-bottom: 75px;
     }
     .banner-icon {
-        padding-top: 325px;
+        padding-top: 305px;
     }
 }
 
 @media (max-width: 336px) {
     .banner-icon {
-        padding-top: 345px;
+        padding-top: 325px;
+    }
+    .banner-content .text-content {
+        padding-bottom: 70px;
     }
 }
