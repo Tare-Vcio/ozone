@@ -736,6 +736,7 @@
         font-size: 24px;
         color: #265BC5;
         z-index: 999;
+        cursor: pointer;
     }
     .menu-nav {
         position: absolute;
